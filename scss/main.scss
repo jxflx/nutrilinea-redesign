@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+// @import "base";
+@import url('https://cdn.jsdelivr.net/gh/jesus1554/Sass-basis@1.1/base.css');
+@import "vars";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    color: #fff;
+    background: rgb(228,87,46);
+    background: linear-gradient(145deg, rgba(228,87,46,1) 0%, rgba(255,201,20,1) 100%);
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.site-header {
+    @include center(true);
+
+    h1 {
+        font-size: 6rem;
+        color: $azul;
+    }
+
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.h-100vh {
+    // @include center(true);
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.site-header:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background-image: url("/img/wave-bottom.svg");
+    height: 22rem;
+}

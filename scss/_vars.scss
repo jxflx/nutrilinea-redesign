@@ -1,0 +1,19 @@
+// Variables
+$verde-claro: #b2d476;
+$verde-fuerte: #5dab56;
+$naranja: #e4572e;
+$azul: #17bebb;
+$amarillo: #ffc914;
+
+@mixin center($column) {
+    display: flex;
+    @if $column {
+        flex-direction: column;
+    }
+    @else {
+        flex-direction: row;
+    }
+
+    align-items: center;
+    justify-content: center;
+}

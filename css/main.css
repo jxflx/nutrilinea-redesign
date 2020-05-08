@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/jesus1554/Sass-basis@1.1/base.css");
+/* line 6, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 10, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.btn {
+  cursor: pointer;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  background: #e4572e;
+  background: linear-gradient(145deg, #e4572e 0%, #ffc914 100%);
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* line 22, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 25, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.site-header h1 {
+  font-size: 6rem;
+  color: #17bebb;
+}
+
+/* line 36, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.h-100vh {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* line 42, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.site-header:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background-image: url("/img/wave-bottom.svg");
+  height: 22rem;
+}
+
+/*# sourceMappingURL=main.css.map */
