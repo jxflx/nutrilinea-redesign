@@ -145,23 +145,13 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-
-/* line 110, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-#servicios {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   color: #fff;
   background-color: #5dab56;
   position: relative;
 }
 
-/* line 117, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-#servicios:before {
+/* line 111, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+#nosotros:before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -171,6 +161,16 @@ body {
   background: #fff;
   z-index: 0;
   clip-path: polygon(100% 90%, 0 100%, 100% 100%);
+}
+
+/* line 124, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+#servicios {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
