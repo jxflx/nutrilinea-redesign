@@ -47,3 +47,15 @@ body {
     background-image: url("/img/wave-bottom.svg");
     height: 22rem;
 }
+
+.flecha {
+    color: $azul;
+    font-size: 3rem;
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dadce4;
+}

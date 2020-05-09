@@ -52,4 +52,18 @@ body {
   height: 22rem;
 }
 
+/* line 51, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.flecha {
+  color: #17bebb;
+  font-size: 3rem;
+}
+
+/* line 56, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dadce4;
+}
+
 /*# sourceMappingURL=main.css.map */
