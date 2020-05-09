@@ -60,35 +60,38 @@ body {
 
 /* line 56, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .site-navigation {
+  position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #dadce4;
+  height: 12vh;
 }
 
-/* line 63, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 65, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .logo {
   padding: 1rem 2rem;
 }
 
-/* line 64, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 66, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .logo img {
-  height: 11rem;
+  height: 6rem;
 }
 
-/* line 70, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 73, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .links {
   margin: 1rem 4rem 1.2rem 2rem;
 }
 
-/* line 72, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 75, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .links a {
   color: #000;
   text-decoration: none;
   margin: 1rem 2rem;
+  height: 12vh;
 }
 
-/* line 79, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 83, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .actual-link {
   border-bottom: 2px solid #17bebb;
 }

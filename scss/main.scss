@@ -54,17 +54,20 @@ body {
 }
 
 .site-navigation {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #dadce4;
+    height: 12vh;
 }
 
 .logo {
     img {
-        height: 11rem;
+        height: 6rem;
     }
     padding: 1rem 2rem;
+    
 }
 
 .links {
@@ -73,6 +76,7 @@ body {
         color: #000;
         text-decoration: none;
         margin: 1rem 2rem;
+        height: 12vh;
     }
 }
 
