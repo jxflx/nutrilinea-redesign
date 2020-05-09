@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 // @import "base";
 @import url('https://cdn.jsdelivr.net/gh/jesus1554/Sass-basis@1.1/base.css');
-@import "vars";
+@import "_vars.scss";
 
 body {
     font-family: 'Open Sans', sans-serif;
