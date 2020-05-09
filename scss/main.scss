@@ -7,16 +7,41 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .btn {
     cursor: pointer;
     border-radius: 2rem;
     padding: 1rem 2rem;
     color: #fff;
-    background: rgb(228,87,46);
-    background: linear-gradient(145deg, rgba(228,87,46,1) 0%, rgba(255,201,20,1) 100%);
     text-decoration: none;
     font-weight: 700;
     text-transform: capitalize;
+    transition: all .5s ease-out;
+}
+.btn-a {
+    background: rgb(228, 87, 46);
+    background: linear-gradient(145deg, $naranja 0%, $amarillo 100%);
+}
+.btn-a a:hover {
+    color: blue;
+}
+
+// .btn-a:hover {
+// }
+
+
+.btn-b {
+    padding: 0.5rem 1rem;
+    border-radius: 2.5rem;
+    border: 3px solid $azul;
+    color: $azul;
+    background-color: #fff;
+    transition: all 0.2s;
+}
+
+.btn-b:hover {
+    color: #fff;
+    background-color: $azul;
 }
 
 .site-header {
@@ -62,19 +87,21 @@ body {
     border-bottom: 1px solid #dadce4;
     height: 12vh;
     background-color: #fff;
-    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
 }
 
 .logo {
     img {
         height: 6rem;
     }
+
     padding: 1rem 2rem;
-    
+
 }
 
 .links {
     margin: 1rem 4rem 1.2rem 2rem;
+
     a {
         color: #000;
         text-decoration: none;
@@ -85,4 +112,10 @@ body {
 
 .underline {
     border-bottom: 3px solid $azul;
+}
+
+#nosotros {
+    height: 100vh;
+    @include center(true);
+    text-align: center;
 }
