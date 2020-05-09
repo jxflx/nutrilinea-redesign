@@ -99,6 +99,7 @@ body {
 .site-navigation {
   position: sticky;
   top: 0;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,22 +109,22 @@ body {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0;
 }
 
-/* line 79, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 80, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .logo {
   padding: 1rem 2rem;
 }
 
-/* line 80, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 81, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .logo img {
   height: 6rem;
 }
 
-/* line 88, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 89, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .links {
   margin: 1rem 4rem 1.2rem 2rem;
 }
 
-/* line 91, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 92, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .links a {
   color: #000;
   text-decoration: none;
@@ -131,12 +132,12 @@ body {
   padding: 2.4rem 1rem;
 }
 
-/* line 99, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 100, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .underline {
   border-bottom: 3px solid #17bebb;
 }
 
-/* line 103, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 104, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 #nosotros {
   height: 100vh;
   display: flex;
@@ -146,7 +147,7 @@ body {
   text-align: center;
 }
 
-/* line 109, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 110, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 #servicios {
   height: 100vh;
   display: flex;
@@ -156,6 +157,20 @@ body {
   text-align: center;
   color: #fff;
   background-color: #5dab56;
+  position: relative;
+}
+
+/* line 117, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+#servicios:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  z-index: 0;
+  clip-path: polygon(100% 90%, 0 100%, 100% 100%);
 }
 
 /*# sourceMappingURL=main.css.map */
