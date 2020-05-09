@@ -55,11 +55,14 @@ body {
 
 .site-navigation {
     position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #dadce4;
     height: 12vh;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
 }
 
 .logo {
@@ -76,10 +79,10 @@ body {
         color: #000;
         text-decoration: none;
         margin: 1rem 2rem;
-        height: 12vh;
+        padding: 2.4rem 1rem;
     }
 }
 
-.actual-link {
-    border-bottom: 2px solid $azul;
+.underline {
+    border-bottom: 3px solid $azul;
 }
