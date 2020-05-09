@@ -66,4 +66,31 @@ body {
   border-bottom: 1px solid #dadce4;
 }
 
+/* line 63, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.logo {
+  padding: 1rem 2rem;
+}
+
+/* line 64, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.logo img {
+  height: 11rem;
+}
+
+/* line 70, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.links {
+  margin: 1rem 4rem 1.2rem 2rem;
+}
+
+/* line 72, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.links a {
+  color: #000;
+  text-decoration: none;
+  margin: 1rem 2rem;
+}
+
+/* line 79, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.actual-link {
+  border-bottom: 2px solid #17bebb;
+}
+
 /*# sourceMappingURL=main.css.map */

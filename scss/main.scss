@@ -59,3 +59,23 @@ body {
     align-items: center;
     border-bottom: 1px solid #dadce4;
 }
+
+.logo {
+    img {
+        height: 11rem;
+    }
+    padding: 1rem 2rem;
+}
+
+.links {
+    margin: 1rem 4rem 1.2rem 2rem;
+    a {
+        color: #000;
+        text-decoration: none;
+        margin: 1rem 2rem;
+    }
+}
+
+.actual-link {
+    border-bottom: 2px solid $azul;
+}
