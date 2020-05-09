@@ -7,13 +7,42 @@ $amarillo: #ffc914;
 
 @mixin center($column) {
     display: flex;
+
     @if $column {
         flex-direction: column;
     }
+
     @else {
         flex-direction: row;
     }
 
     align-items: center;
     justify-content: center;
+}
+
+@mixin button-color($color, $direction) {
+    padding: 0.5rem 1rem;
+    border-radius: 2.5rem;
+    transition: all 0.2s;
+    @if $direction {
+        border: 3px solid $color;
+        color: #fff;
+        background-color: $color;
+
+        &:hover {
+            color: $color;
+            background-color: transparent;
+        }
+    }
+
+    @else {
+        border: 3px solid $color;
+        color: $color;
+        background-color: transparent;
+
+        &:hover {
+            color: #fff;
+            background-color: $color;
+        }
+    }
 }
