@@ -7,7 +7,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
 .btn {
     cursor: pointer;
     border-radius: 2rem;
@@ -22,26 +21,13 @@ body {
     background: rgb(228, 87, 46);
     background: linear-gradient(145deg, $naranja 0%, $amarillo 100%);
 }
-.btn-a a:hover {
-    color: blue;
-}
-
-// .btn-a:hover {
-// }
-
 
 .btn-b {
-    padding: 0.5rem 1rem;
-    border-radius: 2.5rem;
-    border: 3px solid $azul;
-    color: $azul;
-    background-color: #fff;
-    transition: all 0.2s;
+    @include button-color($azul, true)
 }
 
-.btn-b:hover {
-    color: #fff;
-    background-color: $azul;
+.btn-c {
+    @include button-color($verde-claro, true)
 }
 
 .site-header {
@@ -118,4 +104,12 @@ body {
     height: 100vh;
     @include center(true);
     text-align: center;
+}
+
+#servicios {
+    height: 100vh;
+    @include center(true);
+    text-align: center;
+    color: #fff;
+    background-color: $verde-fuerte;
 }
