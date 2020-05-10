@@ -17,6 +17,7 @@ body {
     text-transform: capitalize;
     transition: all .5s ease-out;
 }
+
 .btn-a {
     background: rgb(228, 87, 46);
     background: linear-gradient(145deg, $naranja 0%, $amarillo 100%);
@@ -27,7 +28,14 @@ body {
 }
 
 .btn-c {
-    @include button-color($verde-claro, true)
+    border: 3px solid $verde-claro;
+    color: #fff;
+    background-color: $verde-claro;
+
+    &:hover {
+        color: #fff;
+        background-color: transparent;
+    }
 }
 
 .site-header {
@@ -108,6 +116,7 @@ body {
     color: #fff;
     background-color: $verde-fuerte;
     position: relative;
+
     &:before {
         content: "";
         position: absolute;
@@ -117,7 +126,7 @@ body {
         height: 100vh;
         background: #fff;
         z-index: 0;
-        clip-path: polygon(100% 90%, 0 100%, 100% 100%); 
+        clip-path: polygon(100% 90%, 0 100%, 100% 100%);
     }
 }
 
@@ -126,4 +135,3 @@ body {
     @include center(true);
     text-align: center;
 }
-
