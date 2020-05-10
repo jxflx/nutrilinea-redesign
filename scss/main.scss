@@ -135,3 +135,12 @@ body {
     @include center(true);
     text-align: center;
 }
+
+.advice {
+    @include center(true);
+    background-color: #FAEDCA;
+}
+.map-banner {
+    width: 100%;
+    background-image: url("/img/bg-banner.jpg");
+}
