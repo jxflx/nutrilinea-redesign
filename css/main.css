@@ -109,6 +109,21 @@ body {
 }
 
 /* line 79, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.flecha {
+  animation: slide2 2.3s ease-in-out infinite;
+}
+
+@keyframes slide2 {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(90deg);
+  }
+  50% {
+    transform: translate(0, 10px) rotate(90deg);
+  }
+}
+
+/* line 96, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .site-navigation {
   position: sticky;
   top: 0;
@@ -122,22 +137,22 @@ body {
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0;
 }
 
-/* line 92, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 109, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .logo {
   padding: 1rem 2rem;
 }
 
-/* line 93, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 110, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .logo img {
   height: 6rem;
 }
 
-/* line 101, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 118, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .links {
   margin: 1rem 4rem 1.2rem 2rem;
 }
 
-/* line 104, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 121, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .links a {
   color: #000;
   text-decoration: none;
@@ -145,12 +160,12 @@ body {
   padding: 2.4rem 1rem;
 }
 
-/* line 112, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 129, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .underline {
   border-bottom: 3px solid #17bebb;
 }
 
-/* line 116, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 133, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 #nosotros {
   height: 100vh;
   display: flex;
@@ -163,7 +178,7 @@ body {
   position: relative;
 }
 
-/* line 124, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 141, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 #nosotros:before {
   content: "";
   position: absolute;
@@ -176,7 +191,7 @@ body {
   clip-path: polygon(100% 90%, 0 100%, 100% 100%);
 }
 
-/* line 137, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 154, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 #servicios {
   height: 100vh;
   display: flex;
@@ -186,7 +201,7 @@ body {
   text-align: center;
 }
 
-/* line 143, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 160, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .advice {
   display: flex;
   flex-direction: column;
@@ -195,7 +210,7 @@ body {
   background-color: #FAEDCA;
 }
 
-/* line 148, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 165, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .map-banner {
   height: 60vh;
   width: 100%;
@@ -207,13 +222,13 @@ body {
   align-items: center;
 }
 
-/* line 159, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 176, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .mapa {
   height: 45vh;
   flex-basis: calc(62% - 3rem);
 }
 
-/* line 164, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 181, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .text-banner {
   flex-basis: calc(35% - 1rem);
   display: flex;
@@ -222,14 +237,14 @@ body {
   justify-content: center;
 }
 
-/* line 168, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 185, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .text-banner h4 {
   color: #fff;
   font-size: 5rem;
   margin: 0;
 }
 
-/* line 176, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 193, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .contacto-section {
   height: 80vh;
   display: flex;
@@ -241,7 +256,7 @@ body {
   text-align: center;
 }
 
-/* line 184, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 201, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .site-footer {
   display: flex;
   flex-direction: row;
@@ -252,7 +267,7 @@ body {
   color: white;
 }
 
-/* line 192, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+/* line 210, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
 .site-footer a {
   color: #fff;
 }

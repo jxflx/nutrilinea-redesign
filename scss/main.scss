@@ -76,6 +76,23 @@ body {
     font-size: 3rem;
 }
 
+.flecha {
+    animation: slide2 2.3s ease-in-out infinite;
+}
+
+@keyframes slide2 {
+
+    0%,
+    100% {
+        transform: translate(0, 0) rotate(90deg);
+    }
+
+    50% {
+        transform: translate(0, 10px) rotate(90deg);
+    }
+}
+
+
 .site-navigation {
     position: sticky;
     top: 0;
@@ -176,8 +193,8 @@ body {
 .contacto-section {
     height: 80vh;
     @include center(true);
-    background: rgb(178,212,118);
-    background: linear-gradient(145deg, rgba(178,212,118,1) 0%, rgba(23,190,187,1) 100%);
+    background: rgb(178, 212, 118);
+    background: linear-gradient(145deg, rgba(178, 212, 118, 1) 0%, rgba(23, 190, 187, 1) 100%);
     text-align: center;
 }
 
@@ -189,6 +206,7 @@ body {
     background-color: #1e0935;
     padding: 1.2rem 0;
     color: white;
+
     a {
         color: #fff;
     }
