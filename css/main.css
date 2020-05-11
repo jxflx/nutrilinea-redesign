@@ -308,4 +308,20 @@ body {
   margin-top: 7rem;
 }
 
+/* line 243, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.doctors {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  margin-bottom: 3rem;
+}
+
+/* line 247, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.doctors a {
+  color: #fff;
+  padding: 1.5rem 2rem;
+  background-color: #b2d476;
+  border-radius: 2.4rem;
+}
+
 /*# sourceMappingURL=main.css.map */

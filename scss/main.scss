@@ -239,3 +239,18 @@ body {
 .auto-margin-top {
     margin-top: 7rem;
 }
+
+.doctors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    a {
+        // color: #0791e6;
+        color: #fff;
+        padding: 1.5rem 2rem;
+        background-color: $verde-claro;
+        border-radius: 2.4rem;
+    }
+    margin-bottom: 3rem;
+}
+
