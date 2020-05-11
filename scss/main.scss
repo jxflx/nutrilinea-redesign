@@ -7,6 +7,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.txt-justify {
+    text-align: justify;
+}
+
 .btn {
     cursor: pointer;
     border-radius: 2rem;
@@ -213,3 +217,40 @@ body {
         color: #fff;
     }
 }
+
+.img-bg-header {
+    height: 70vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hdr-about {
+    @include dark-filter('/img/bg-3.jpg');
+    h1 {
+        color: #fff;
+        margin: 1rem 3rem;
+        font-size: 6rem;
+    }
+}
+
+.auto-margin-top {
+    margin-top: 7rem;
+}
+
+.doctors {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    a {
+        // color: #0791e6;
+        color: #fff;
+        padding: 1.5rem 2rem;
+        background-color: $verde-claro;
+        border-radius: 2.4rem;
+    }
+    margin-bottom: 3rem;
+}
+
