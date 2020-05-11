@@ -7,6 +7,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.txt-justify {
+    text-align: justify;
+}
+
 .btn {
     cursor: pointer;
     border-radius: 2rem;
@@ -212,4 +216,26 @@ body {
     a {
         color: #fff;
     }
+}
+
+.img-bg-header {
+    height: 70vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hdr-about {
+    @include dark-filter('/img/bg-3.jpg');
+    h1 {
+        color: #fff;
+        margin: 1rem 3rem;
+        font-size: 6rem;
+    }
+}
+
+.auto-margin-top {
+    margin-top: 7rem;
 }
