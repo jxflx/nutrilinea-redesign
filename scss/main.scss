@@ -141,6 +141,27 @@ body {
     background-color: #FAEDCA;
 }
 .map-banner {
+    height: 60vh;
     width: 100%;
     background-image: url("/img/bg-banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa {
+    height: 45vh;
+    flex-basis: calc(62% - 3rem);
+}
+.text-banner {
+    flex-basis: calc(35% - 1rem);
+    @include center(true);
+    h4 {
+        color: #fff;
+        font-size: 5rem;
+        margin: 0;
+    }
+   
 }
