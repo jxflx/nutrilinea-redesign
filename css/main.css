@@ -241,4 +241,20 @@ body {
   text-align: center;
 }
 
+/* line 184, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.site-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e0935;
+  padding: 1.2rem 0;
+  color: white;
+}
+
+/* line 192, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
+.site-footer a {
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -180,3 +180,16 @@ body {
     background: linear-gradient(145deg, rgba(178,212,118,1) 0%, rgba(23,190,187,1) 100%);
     text-align: center;
 }
+
+.site-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e0935;
+    padding: 1.2rem 0;
+    color: white;
+    a {
+        color: #fff;
+    }
+}
