@@ -72,7 +72,9 @@ body {
 }
 
 .flecha {
-    color: $azul;
+    a {
+        color: $azul;
+    }
     font-size: 3rem;
 }
 
