@@ -38,6 +38,10 @@ body {
     }
 }
 
+.btn-d {
+    @include button-color($salsa, true)
+}
+
 .site-header {
     @include center(true);
 
@@ -140,6 +144,7 @@ body {
     @include center(true);
     background-color: #FAEDCA;
 }
+
 .map-banner {
     height: 60vh;
     width: 100%;
@@ -155,13 +160,23 @@ body {
     height: 45vh;
     flex-basis: calc(62% - 3rem);
 }
+
 .text-banner {
     flex-basis: calc(35% - 1rem);
     @include center(true);
+
     h4 {
         color: #fff;
         font-size: 5rem;
         margin: 0;
     }
-   
+
+}
+
+.contacto-section {
+    height: 80vh;
+    @include center(true);
+    background: rgb(178,212,118);
+    background: linear-gradient(145deg, rgba(178,212,118,1) 0%, rgba(23,190,187,1) 100%);
+    text-align: center;
 }
