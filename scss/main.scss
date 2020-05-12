@@ -7,6 +7,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.txt-center {
+    text-align: center;
+}
+
 .txt-justify {
     text-align: justify;
 }
@@ -252,5 +256,12 @@ body {
         border-radius: 2.4rem;
     }
     margin-bottom: 3rem;
+}
+.servic-header {
+    @include dark-filter('/img/bg-2.jpg');
+    h1 {
+        color: #fff;
+        font-size: 6rem;
+    }
 }
 
