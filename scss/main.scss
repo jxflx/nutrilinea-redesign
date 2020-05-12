@@ -7,6 +7,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.txt-center {
+    text-align: center;
+}
+
 .txt-justify {
     text-align: justify;
 }
@@ -29,6 +33,17 @@ body {
 
 .btn-b {
     @include button-color($azul, true)
+}
+
+.btn-b-2 {
+    border: 3px solid $azul;
+    color: #fff;
+    background-color: $azul;
+
+    &:hover {
+        color: #fff;
+        background-color: transparent;
+    }
 }
 
 .btn-c {
@@ -79,6 +94,7 @@ body {
     a {
         color: $azul;
     }
+
     font-size: 3rem;
 }
 
@@ -229,9 +245,10 @@ body {
 
 .hdr-about {
     @include dark-filter('/img/bg-3.jpg');
+
     h1 {
         color: #fff;
-        margin: 1rem 3rem;
+        // margin: 1rem 3rem;
         font-size: 6rem;
     }
 }
@@ -244,6 +261,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+
     a {
         // color: #0791e6;
         color: #fff;
@@ -251,6 +269,36 @@ body {
         background-color: $verde-claro;
         border-radius: 2.4rem;
     }
+
     margin-bottom: 3rem;
 }
 
+.servic-header {
+    @include dark-filter('/img/bg-2.jpg');
+
+    h1 {
+        color: #fff;
+        font-size: 6rem;
+    }
+}
+
+.card-section {
+    height: 65vh;
+    @include center(true);
+    color: #fff;
+    background: linear-gradient(145deg, $salsa 0%, $amarillo 100%);
+}
+
+.other-section {
+    height: 65vh;
+    @include center(true);
+    color: #fff;
+    background: linear-gradient(145deg, $verde-claro 0%, $azul 100%);
+    text-align: center;
+}
+.whatss-bookin {
+    @include center(true);
+    i {
+        font-size: 5rem;
+    }
+}
