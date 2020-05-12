@@ -6,6 +6,8 @@ body { font-family: 'Open Sans', sans-serif; }
 
 .txt-justify { text-align: justify; }
 
+.a-linter { color: #0791e6; }
+
 .btn { cursor: pointer; border-radius: 2rem; padding: 1rem 2rem; color: #fff; text-decoration: none; font-weight: 700; text-transform: capitalize; transition: all .5s ease-out; }
 
 .btn-a { background: #e4572e; background: linear-gradient(145deg, #e4572e 0%, #ffc914 100%); }
