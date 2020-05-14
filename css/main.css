@@ -1,523 +1,136 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 @import url("https://cdn.jsdelivr.net/gh/jesus1554/Sass-basis@1.1/base.css");
-/* line 6, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-@media (max-width: 769px) {
-  /* line 6, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-  body {
-    overflow-x: hidden;
-  }
-}
-
-/* line 13, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.txt-center {
-  text-align: center;
-}
-
-/* line 17, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.txt-justify {
-  text-align: justify;
-}
-
-/* line 21, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.a-linter {
-  color: #0791e6;
-}
-
-/* line 25, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.btn {
-  cursor: pointer;
-  border-radius: 2rem;
-  padding: 1rem 2rem;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
-  text-transform: capitalize;
-  transition: all .5s ease-out;
-}
-
-/* line 36, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.btn-a {
-  background: #e4572e;
-  background: linear-gradient(145deg, #e4572e 0%, #ffc914 100%);
-}
-
-/* line 41, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.btn-b {
-  padding: 0.5rem 1rem;
-  border-radius: 2.5rem;
-  transition: all 0.2s;
-  border: 3px solid #17bebb;
-  color: #fff;
-  background-color: #17bebb;
-}
-
-/* line 33, C:/Users/jesus/prog/nutrilinea-redesign/scss/_vars.scss */
-.btn-b:hover {
-  color: #17bebb;
-  background-color: transparent;
-}
-
-/* line 45, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.btn-b-2 {
-  border: 3px solid #17bebb;
-  color: #fff;
-  background-color: #17bebb;
-}
-
-/* line 50, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.btn-b-2:hover {
-  color: #fff;
-  background-color: transparent;
-}
-
-/* line 56, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.btn-c {
-  border: 3px solid #b2d476;
-  color: #fff;
-  background-color: #b2d476;
-}
-
-/* line 61, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.btn-c:hover {
-  color: #fff;
-  background-color: transparent;
-}
-
-/* line 67, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.btn-d {
-  padding: 0.5rem 1rem;
-  border-radius: 2.5rem;
-  transition: all 0.2s;
-  border: 3px solid #F8333C;
-  color: #fff;
-  background-color: #F8333C;
-}
-
-/* line 33, C:/Users/jesus/prog/nutrilinea-redesign/scss/_vars.scss */
-.btn-d:hover {
-  color: #F8333C;
-  background-color: transparent;
-}
-
-/* line 71, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.site-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-
-/* line 74, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.site-header h1 {
-  font-size: 6rem;
-  color: #17bebb;
-}
-
-/* line 85, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.h-100vh {
-  text-align: center;
-  margin-top: 1.5rem;
-}
-
-/* line 91, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.site-header:before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  background-image: url("/img/wave-bottom.svg");
-  height: 22rem;
-}
-
-/* line 100, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.flecha {
-  font-size: 3rem;
-}
-
-/* line 101, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.flecha a {
-  color: #17bebb;
-}
-
-/* line 108, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.flecha {
-  animation: slide2 2.3s ease-in-out infinite;
-}
-
-@keyframes slide2 {
-  0%,
-  100% {
-    transform: translate(0, 0) rotate(90deg);
-  }
-  50% {
-    transform: translate(0, 10px) rotate(90deg);
-  }
-}
-
-/* line 126, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.site-navigation {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: 1px solid #dadce4;
-  height: 12vh;
-  background-color: #fff;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0;
-}
-
-/* line 139, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.logo {
-  padding: 1rem 2rem;
-}
-
-/* line 140, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.logo img {
-  height: 6rem;
-}
-
-/* line 148, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.links {
-  margin: 1rem 4rem 1.2rem 2rem;
-}
-
-/* line 151, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.links a {
-  color: #000;
-  text-decoration: none;
-  margin: 1rem 2rem;
-  padding: 2.4rem 1rem;
-}
-
-@media (max-width: 768px) {
-  /* line 151, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-  .links a {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-    padding: 3rem 5rem;
-    border-top: 1px solid #cecece;
-  }
-  /* line 157, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-  .links a:first-child {
-    border-top: none;
-  }
-  /* line 165, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-  .links a:hover {
-    background-color: #cecece;
-  }
-}
-
-@media (max-width: 768px) {
-  /* line 148, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-  .links {
-    margin: 0;
-    position: absolute;
-    right: 0px;
-    height: 92vh;
-    top: 8vh;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 55%;
-    display: none;
-    transition: all 0.2s ease-in;
-  }
-}
-
-/* line 189, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.nav-active {
-  display: block;
-}
-
-/* line 193, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.burger {
-  display: none;
-  cursor: pointer;
-}
-
-/* line 196, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.burger div {
-  width: 2.5rem;
-  height: 2px;
-  background-color: #000;
-  margin: 5px;
-}
-
-@media (max-width: 768px) {
-  /* line 193, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-  .burger {
-    display: block;
-  }
-}
-
-/* line 208, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.underline {
-  border-bottom: 3px solid #17bebb;
-}
-
-/* line 214, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-#nosotros {
-  height: 155vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #fff;
-  background-color: #5dab56;
-  position: relative;
-}
-
-/* line 222, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-#nosotros:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 155vh;
-  background: #fff;
-  z-index: 0;
-  clip-path: polygon(100% 90%, 0 100%, 100% 100%);
-}
-
-/* line 235, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-#servicios {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-/* line 241, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.advice {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #FAEDCA;
-}
-
-/* line 246, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.map-banner {
-  height: 60vh;
-  width: 100%;
-  background-image: url("/img/bg-banner.jpg");
-  background-position: center center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* line 257, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.mapa {
-  height: 45vh;
-  flex-basis: calc(62% - 3rem);
-}
-
-/* line 262, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.text-banner {
-  flex-basis: calc(35% - 1rem);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-/* line 266, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.text-banner h4 {
-  color: #fff;
-  font-size: 5rem;
-  margin: 0;
-}
-
-/* line 274, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.contacto-section {
-  height: 80vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #b2d476;
-  background: linear-gradient(145deg, #b2d476 0%, #17bebb 100%);
-  text-align: center;
-}
-
-/* line 282, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.site-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: #1e0935;
-  padding: 1.2rem 0;
-  color: white;
-}
-
-/* line 291, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.site-footer a {
-  color: #fff;
-}
-
-/* line 296, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.img-bg-header {
-  height: 70vh;
-  background-position: center center;
-  background-size: cover;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-/* line 305, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.hdr-about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("/img/bg-3.jpg");
-}
-
-/* line 308, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.hdr-about h1 {
-  color: #fff;
-  font-size: 6rem;
-}
-
-/* line 315, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.auto-margin-top {
-  margin-top: 7rem;
-}
-
-/* line 319, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.doctors {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  margin-bottom: 3rem;
-}
-
-/* line 324, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.doctors a {
-  color: #fff;
-  padding: 1.5rem 2rem;
-  background-color: #b2d476;
-  border-radius: 2.4rem;
-}
-
-/* line 335, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.servic-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("/img/bg-2.jpg");
-}
-
-/* line 338, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.servic-header h1 {
-  color: #fff;
-  font-size: 6rem;
-}
-
-/* line 344, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.card-section {
-  height: 65vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  background: linear-gradient(145deg, #F8333C 0%, #ffc914 100%);
-}
-
-/* line 351, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.other-section {
-  height: 65vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  background: linear-gradient(145deg, #b2d476 0%, #17bebb 100%);
-  text-align: center;
-}
-
-/* line 358, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.whatss-bookin {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-/* line 360, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.whatss-bookin i {
-  font-size: 5rem;
-}
-
-/* line 365, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.grid-contacto {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 2rem;
-  justify-items: center;
-}
-
-/* line 373, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.contacto {
-  text-align: center;
-  background-color: #e4572e;
-  width: 100%;
-  padding: 1rem 0.8rem;
-  border-radius: 2.9rem;
-  color: #fff;
-}
-
-/* line 380, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.contacto h4 {
-  color: #fff;
-  font-size: 3.4rem;
-}
-
-/* line 384, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.contacto a {
-  color: #fff;
-}
-
-/* line 389, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.social-media {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;
-  margin-bottom: 3.5rem;
-}
-
-/* line 396, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.smb {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #5dab56;
-  height: 8.4rem;
-  width: 8.4rem;
-  font-size: 4rem;
-  border-radius: 50%;
-}
-
-/* line 403, C:/Users/jesus/prog/nutrilinea-redesign/scss/main.scss */
-.smb a {
-  color: #fff;
-}
-
-/*# sourceMappingURL=main.css.map */
+body { font-family: 'Open Sans', sans-serif; }
+
+@media (max-width: 769px) { body { overflow-x: hidden; } }
+
+.txt-center { text-align: center; }
+
+.txt-justify { text-align: justify; }
+
+.a-linter { color: #0791e6; }
+
+.btn { cursor: pointer; border-radius: 2rem; padding: 1rem 2rem; color: #fff; text-decoration: none; font-weight: 700; text-transform: capitalize; transition: all .5s ease-out; }
+
+.btn-a { background: #e4572e; background: linear-gradient(145deg, #e4572e 0%, #ffc914 100%); }
+
+.btn-b { padding: 0.5rem 1rem; border-radius: 2.5rem; transition: all 0.2s; border: 3px solid #17bebb; color: #fff; background-color: #17bebb; }
+
+.btn-b:hover { color: #17bebb; background-color: transparent; }
+
+.btn-b-2 { border: 3px solid #17bebb; color: #fff; background-color: #17bebb; }
+
+.btn-b-2:hover { color: #fff; background-color: transparent; }
+
+.btn-c { border: 3px solid #b2d476; color: #fff; background-color: #b2d476; }
+
+.btn-c:hover { color: #fff; background-color: transparent; }
+
+.btn-d { padding: 0.5rem 1rem; border-radius: 2.5rem; transition: all 0.2s; border: 3px solid #F8333C; color: #fff; background-color: #F8333C; }
+
+.btn-d:hover { color: #F8333C; background-color: transparent; }
+
+.site-header { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; position: relative; overflow: hidden; width: 100%; }
+
+.site-header h1 { font-size: 6rem; color: #17bebb; }
+
+.h-100vh { text-align: center; margin-top: 1.5rem; }
+
+.site-header:before { content: ''; position: absolute; bottom: 0; width: 100vw; background-image: url("/img/wave-bottom.svg"); height: 22rem; }
+
+.flecha { font-size: 3rem; }
+
+.flecha a { color: #17bebb; }
+
+.flecha { animation: slide2 2.3s ease-in-out infinite; }
+
+@keyframes slide2 { 0%, 100% { transform: translate(0, 0) rotate(90deg); }
+  50% { transform: translate(0, 10px) rotate(90deg); } }
+
+.site-navigation { position: sticky; top: 0; z-index: 2; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #dadce4; height: 12vh; background-color: #fff; box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), inset 0 -1px 0 0 #dadce0; }
+
+@media (max-width: 768px) { .site-navigation { justify-content: space-around; } }
+
+.logo { padding: 1rem 2rem; }
+
+.logo img { height: 6rem; }
+
+.links { margin: 1rem 4rem 1.2rem 2rem; }
+
+.links a { color: #000; text-decoration: none; margin: 1rem 2rem; padding: 2.4rem 1rem; }
+
+@media (max-width: 768px) { .links a { width: 100%; margin: 0 auto; display: block; padding: 3rem 5rem; border-top: 1px solid #cecece; }
+  .links a:first-child { border-top: none; }
+  .links a:hover { background-color: #cecece; } }
+
+@media (max-width: 768px) { .links { margin: 0; position: absolute; right: 0px; height: 92vh; top: 8vh; background-color: #fff; display: flex; flex-direction: column; align-items: center; text-align: center; width: 55%; display: none; transition: all 0.2s ease-in; } }
+
+.nav-active { display: block; }
+
+.burger { display: none; cursor: pointer; }
+
+.burger div { width: 2.5rem; height: 2px; background-color: #000; margin: 5px; }
+
+@media (max-width: 768px) { .burger { display: block; } }
+
+.underline { border-bottom: 3px solid #17bebb; }
+
+#nosotros { height: 155vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: #fff; background-color: #5dab56; position: relative; }
+
+#nosotros:before { content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 155vh; background: #fff; z-index: 0; clip-path: polygon(100% 90%, 0 100%, 100% 100%); }
+
+#servicios { height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+
+.advice { display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #FAEDCA; }
+
+.map-banner { height: 60vh; width: 100%; background-image: url("/img/bg-banner.jpg"); background-position: center center; background-size: cover; display: flex; justify-content: center; align-items: center; }
+
+.mapa { height: 45vh; flex-basis: calc(62% - 3rem); }
+
+.text-banner { flex-basis: calc(35% - 1rem); display: flex; flex-direction: column; align-items: center; justify-content: center; }
+
+.text-banner h4 { color: #fff; font-size: 5rem; margin: 0; }
+
+.contacto-section { height: 80vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #b2d476; background: linear-gradient(145deg, #b2d476 0%, #17bebb 100%); text-align: center; }
+
+.site-footer { display: flex; flex-direction: row; align-items: center; justify-content: center; background-color: #1e0935; padding: 1.2rem 0; color: white; }
+
+.site-footer a { color: #fff; }
+
+.img-bg-header { height: 70vh; background-position: center center; background-size: cover; display: flex; justify-content: flex-start; align-items: center; }
+
+.hdr-about { background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("/img/bg-3.jpg"); }
+
+.hdr-about h1 { color: #fff; font-size: 6rem; }
+
+.auto-margin-top { margin-top: 7rem; }
+
+.doctors { display: grid; grid-template-columns: repeat(2, 1fr); justify-items: center; margin-bottom: 3rem; }
+
+.doctors a { color: #fff; padding: 1.5rem 2rem; background-color: #b2d476; border-radius: 2.4rem; }
+
+.servic-header { background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("/img/bg-2.jpg"); }
+
+.servic-header h1 { color: #fff; font-size: 6rem; }
+
+.card-section { height: 65vh; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; background: linear-gradient(145deg, #F8333C 0%, #ffc914 100%); }
+
+.other-section { height: 65vh; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; background: linear-gradient(145deg, #b2d476 0%, #17bebb 100%); text-align: center; }
+
+.whatss-bookin { display: flex; flex-direction: column; align-items: center; justify-content: center; }
+
+.whatss-bookin i { font-size: 5rem; }
+
+.grid-contacto { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 2rem; justify-items: center; }
+
+.contacto { text-align: center; background-color: #e4572e; width: 100%; padding: 1rem 0.8rem; border-radius: 2.9rem; color: #fff; }
+
+.contacto h4 { color: #fff; font-size: 3.4rem; }
+
+.contacto a { color: #fff; }
+
+.social-media { display: grid; grid-template-columns: repeat(3, 1fr); justify-items: center; align-items: center; margin-bottom: 3.5rem; }
+
+.smb { display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #5dab56; height: 8.4rem; width: 8.4rem; font-size: 4rem; border-radius: 50%; }
+
+.smb a { color: #fff; }
