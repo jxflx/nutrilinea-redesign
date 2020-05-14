@@ -165,7 +165,7 @@ body {
             &:hover {
                 background-color: #cecece;
             }
-            opacity: 0;
+            // opacity: 0;
         }
     }
     @media (max-width: 768px){
@@ -179,24 +179,28 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        width: 60%;
-        transform: translateX(100%);
-        transition: transform 0.2s ease-in;
+        width: 55%;
+        // transform: translateX(100%);
+        display: none;
+        transition: all 0.2s ease-in;
     }
 }
 
 .nav-active {
-    transform: translateX(0%);
+    display: block;
 }
 
 .burger {
-    display: block;
+    display: none;
     cursor: pointer;
     div {
         width: 2.5rem;
         height: 2px;
         background-color: #000;
         margin: 5px;
+    }
+    @media (max-width: 768px) {
+        display: block;
     }
 }
 
