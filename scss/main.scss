@@ -15,6 +15,10 @@ body {
     text-align: justify;
 }
 
+.a-linter {
+    color: #0791e6;
+}
+
 .btn {
     cursor: pointer;
     border-radius: 2rem;
@@ -300,5 +304,48 @@ body {
     @include center(true);
     i {
         font-size: 5rem;
+    }
+}
+
+.grid-contacto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    justify-items: center;
+    // align-items: center;
+}
+
+.contacto {
+    text-align: center;
+    background-color: $naranja;
+    width: 100%;
+    padding: 1rem 0.8rem;
+    border-radius: 2.9rem;
+    color: #fff;
+    h4 {
+        color: #fff;
+        font-size: 3.4rem;
+    }
+    a {
+        color: #fff;
+    }
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+.smb {
+    @include center(true);
+    background-color: $verde-fuerte;
+    height: 8.4rem;
+    width: 8.4rem;
+    font-size: 4rem;
+    border-radius: 50%;
+    a {
+        color: #fff;
     }
 }
