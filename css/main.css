@@ -38,6 +38,8 @@ body { font-family: 'Open Sans', sans-serif; }
 
 @media (max-width: 740px) { .site-header h1 { font-size: 5.3rem; line-height: 1.1; } }
 
+@media (max-width: 465px) { .site-header img { width: 80%; margin: 1rem auto; } }
+
 .h-100vh { text-align: center; margin-top: 1.5rem; }
 
 .site-header:before { content: ''; position: absolute; bottom: 0; width: 100vw; background-image: url("/img/wave-bottom.svg"); height: 22rem; }
